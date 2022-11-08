@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "test": "jest",
-    "test-coverage": "nyc yarn test"
+    "test-coverage": "yarn test --collect-coverage"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
