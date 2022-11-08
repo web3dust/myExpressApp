@@ -48,7 +48,7 @@ jobs:
         npm run build --if-present
 
     - name: Run tests and upload coverage report to Code Climate
-      uses: paambaati/codeclimate-action@v3.0.0
+      uses: paambaati/codeclimate-action@v3.2.0
       env:
         CC_TEST_REPORTER_ID: 0d3b8b8cd583620de9fb81e724d49562b5c2fe980dcef04f5b662508dcd62580
       with:
