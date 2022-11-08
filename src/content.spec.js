@@ -9,5 +9,13 @@ describe('Content', () => {
         expect(title).toBe('Hello allan.');
       });
     });
+});
+
+describe('Content', () => {
+  describe('root', () => {
+    it('should return "3"', () => {
+      expect(content.sum(1, 2)).toBe(3);
+    });
   });
+});
   
